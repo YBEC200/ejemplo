@@ -158,7 +158,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 												<script>
 												document.getElementById('inputPrice').addEventListener('input', function () {
 													const input = this;
-													if (input.value < 0.00) {
+													if (input.value <= 1.00) {
 														input.value = ''; // Limpia el campo si el valor es negativo
 													}
 												});

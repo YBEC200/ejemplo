@@ -284,8 +284,8 @@ $resultLotesMenores2 = $conn->query($sqlLotesMenores);
                                                             <?php endif; ?>
                                                         </div>
                                                         <div class="flex-grow-1">
-                                                            <h6 class="msg-name">Pocos lotes<span class="msg-time float-end">Hace poco</span></h6>
-                                                            <p class="msg-info">Quedan menos de 50 lotes del producto "<?php echo htmlspecialchars($producto['Nombre']); ?>".</p>
+                                                            <h6 class="msg-name">Pocos existencias<span class="msg-time float-end">Hace poco</span></h6>
+                                                            <p class="msg-info">Quedan menos de 50 existencias del producto "<?php echo htmlspecialchars($producto['Nombre']); ?>".</p>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -320,7 +320,7 @@ $resultLotesMenores2 = $conn->query($sqlLotesMenores);
                             </li>
                             <li><div class="dropdown-divider mb-0"></div></li>
                             <li>
-                                <a class="dropdown-item d-flex align-items-center" href="../../../public/index.html"><i class="bx bx-log-out-circle"></i><span>Cerrar Sesión</span></a>
+                                <a class="dropdown-item d-flex align-items-center" href="../../../public/index.php"><i class="bx bx-log-out-circle"></i><span>Cerrar Sesión</span></a>
                             </li>
                         </ul>
                     </div>
